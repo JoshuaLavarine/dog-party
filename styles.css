@@ -1,0 +1,197 @@
+/*PRELIMINARY CSS*/
+
+*,
+*:after,
+*:before {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+/*BLUE HEADER @ TOP OF PAGE*/
+
+header {
+  border-bottom: 2px solid;
+  border-bottom-color: #048eaa;
+  height: 70px;
+  min-width: 120px;
+  position: relative;
+  width: 100%;
+}
+
+.links-in-header {
+  float: right;
+  list-style-type: none;
+  padding: 10px 11px 0px 15px;
+}
+
+.nav-bar-image {
+  display: inline;
+  float: left;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 10px;
+  position: absolute;
+  width: 50px;
+}
+
+/*MIDDLE SECTION WITH PARK BACKGROUND AND NAME OF DOG*/
+
+.top-circle-dog-bordered {
+  margin-top: 33px;
+}
+
+.background-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/park.jpg);
+  background-position: 0% 92%;
+  background-size: cover;
+  height: 428px;
+  margin-top: 0px;
+  position: relative;
+}
+
+main {
+  height: 400px;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+}
+
+.head-text {
+  display: block;
+  font-size: 26px;
+  padding-top: 22px;
+}
+
+.header-button {
+  box-sizing: border-box;
+  font-size: 16px;
+  height: 43px;
+  margin-top: 13px;
+  padding: 13px;
+  width: 100%;
+}
+
+.name {
+  padding: 6px 0px;
+  text-align: left;
+  width: 100%;
+}
+
+.input-box {
+  box-sizing: border-box;
+  padding: 13px;
+  width: 300px;
+}
+
+/*THIRD SECTION DOWN WITH THE THREE DOG BLURBS */
+
+.article-container {
+  height: 700px;
+  margin: auto;
+  margin-top: 15px;
+  position: relative;
+  width: 300px;
+}
+
+.how-what-facts {
+  bottom: 52px;
+  font-size: 18px;
+  padding: 17px;
+  position: absolute;
+  width: 100%;
+}
+
+.contains-the-articles {
+  display: block;
+  height: 700px;
+  position: relative;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
+
+.article-header {
+  padding: 20px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.column-text {
+  font-weight: bold;
+  margin: 14px;
+  margin-top: 37px;
+}
+
+.circle-dog-bordered {
+  border: solid;
+  border-color: #048eaa;
+  border-radius: 100% 100% 100% 100%;
+  display: block;
+  height: 170px;
+  margin: auto;
+  width: 170px;
+}
+
+
+/*FOOTER AND SOCIAL MEDIA*/
+.footer-dimensions {
+  height: 175px;
+  width: 100%;
+}
+
+.social-media-button {
+  padding: 4px 5px;
+}
+
+.social-media {
+  display: block;
+  margin: auto;
+  padding-top: 29px;
+  text-align: center;
+}
+
+.social-media-spacing {
+  font-size: 17px;
+  padding: 16px 0;
+}
+
+/*GENERAL CSS PROPERTIES (MODIFIERS)*/
+
+.container-for-border-margin {
+  border: 1px solid;
+  margin: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+.light-blue-background {
+  background-color: #75e2e6;
+}
+
+.darker-blue-background {
+  background-color: #048eaa;
+}
+
+/*Media Queries for different sized screens
+
+@media only screen and (max-width: 320px) {
+  .everything-for-media-query {
+    width: 320px;
+  }
+}*/
